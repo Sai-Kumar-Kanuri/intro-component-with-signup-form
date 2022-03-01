@@ -1,0 +1,215 @@
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --darkBlue: hsl(249, 10%, 26%);
+    --grayishBlue: hsl(246, 25%, 77%);
+}
+k
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--red);
+    height:100vh;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+p{
+    font-size: 15px;
+}
+
+span{
+    font-weight: bold;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:50px;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+::placeholder{
+    color: var(--red);
+}
+
+.left-col{
+   color: white;
+   text-align: left;
+   display: block;
+   padding: 20px;
+   width: 80%;
+   /* margin-left: 20px; */
+}
+
+.left-col p{
+    line-height: 25px;
+}
+
+
+.right-col{
+    width: 100%;
+}
+
+.top-box{
+    background-color: var(--blue);
+    border-radius: 10px;
+    color: white;
+    margin: 0 80px;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.3);
+}
+
+.top-box p{
+    padding: 15px 0;
+}
+
+.form-container{
+    background-color: white;
+    margin: 0 80px;
+    border-radius: 10px;
+    padding: 15px 5px;
+}
+
+input{
+    width: 84%;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    border: 2px solid var(--grayishBlue);
+    /* border-width: 3px;
+    outline: none; */
+}
+
+input::placeholder{
+    font-weight: bold;
+    color: var(--darkBlue)
+}
+
+.error-icon{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 28px;
+    visibility: hidden;
+}
+
+.error-text{
+    text-align: right;
+    margin: 0;
+    padding-right: 25px;
+    color: var(--red);
+    font-size: 10px;
+    font-style: italic;
+    visibility: hidden;
+}
+
+button{
+    width: 91%;
+    margin: 15px;
+    height: 40px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px 0 hsl(154, 89%, 30%);
+    outline: none;
+}
+
+button:hover{
+    background-color: hsl(153, 65%, 56%);
+
+}
+
+.form-footer{
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 11px;
+    color: var(--grayishBlue);
+}
+
+.form-footer span{
+    color: var(--red);
+}
+
+
+@media screen and (max-width:768px) {
+
+    body{
+        background-image: url(/images/bg-intro-mobile.png);
+    }
+
+    h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .container{
+        flex-direction: column;
+        max-width: 80%;
+    }
+
+    .left-col{
+      text-align: center;
+      width: 100%;
+    }
+
+    .left-col p{
+        font-size: 13px;
+    }
+
+    .right-col{
+        width: 100%;
+    }
+    
+    .top-box{
+        width: 100%;
+        margin: 0;
+    }
+
+    .top-box p{
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .form-container{
+        width: 97%;
+        margin: 0;
+    }
+
+    input{
+        margin: 0;
+    }
+
+    button{
+        margin: 0;
+        width: 90%;
+    }
+
+    .form-footer{
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding: 0px 20px;
+        font-size: 10px;
+    }
+}
