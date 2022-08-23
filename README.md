@@ -20,6 +20,12 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 ![](/Screenshot%20desktop.png)
 ![](/mobile-design.jpg)
 
+<p align="center">
+  <img src="https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form/blob/main/mobile-design.jpg
+" alt="mobile view"/>
+</p>
+
+
 https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form/blob/main/Screenshot%20desktop.png
 https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form/blob/main/mobile-design.jpg
 
