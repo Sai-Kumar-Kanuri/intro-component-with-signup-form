@@ -21,8 +21,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 ![](/mobile-design.jpg)
 
 <p align="center">
-  <img src="https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form/blob/main/mobile-design.jpg
-" alt="mobile view"/>
+  <img src="https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form/blob/main/mobile-design.jpg" alt="mobile view"/>
 </p>
 
 
