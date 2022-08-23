@@ -17,6 +17,9 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Screenshot
 
+![](/Screenshot%20desktop.png)
+![](/mobile-design.jpg)
+
 https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form/blob/main/Screenshot%20desktop.png
 https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form/blob/main/mobile-design.jpg
 
