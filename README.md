@@ -25,9 +25,9 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: [https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form](https://your-solution-url.com)
+- Solution URL: https://github.com/Sai-Kumar-Kanuri/intro-component-with-signup-form
 
-- Live Site URL: [https://sai-kumar-kanuri.github.io/intro-component-with-signup-form/](https://your-live-site-url.com)
+- Live Site URL: https://sai-kumar-kanuri.github.io/intro-component-with-signup-form/
 
 ## My process
 
